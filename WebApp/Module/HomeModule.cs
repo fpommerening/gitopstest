@@ -6,7 +6,7 @@ namespace FP.DotnetInTheBox.BuildMultistage.Module
     {
         public HomeModule()
         {
-            Get("/", args => $"Hallo Leipzig - {DateTime.Now}");
+            Get("/", args => $"Hallo Hamburg - {DateTime.Now}");
         }
     }
 }
